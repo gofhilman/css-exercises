@@ -9,6 +9,9 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  gap: 15px;
+  grid-template: 1fr 1fr 5fr 1fr / 7fr 20fr;
 }
 
 .container div {
@@ -17,7 +20,7 @@ html {
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .header {
